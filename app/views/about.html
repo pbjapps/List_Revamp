@@ -1,1 +1,14 @@
-<p>This is the about view.</p>
+<div class="container text-center">
+  <button class="btn btn-lg btn-success menu-btn" data-toggle="modal" data-target="#myModal"></i>Click here for the Food & Beverage Menu</button>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+           <object class="menu-modal" type="application/pdf" data="menu.pdf"></object>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <a href="menu.pdf" class="btn btn-primary" download="menu.pdf">Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
