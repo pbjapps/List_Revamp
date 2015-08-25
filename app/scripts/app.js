@@ -27,6 +27,18 @@ angular
         templateUrl: 'views/menu.html',
         controller: 'MenuCtrl'
       })
+      .when('/happyhour', {
+        templateUrl: 'views/happyhour.html'
+      })
+      .when('/views', {
+        templateUrl: 'views/views.html'
+      })
+      .when('/directions', {
+        templateUrl: 'views/directions.html'
+      })
+      .when('/21', {
+        templateUrl: 'views/21.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
