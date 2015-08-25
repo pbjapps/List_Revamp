@@ -78,16 +78,18 @@ body {
     border-bottom: 0;
   }
 
-  .img-section {
+  .img-section, .homepage-img {
     text-align: center;
     background-repeat: no-repeat no-repeat;
     background-color: black;
   }
 
   .homepage-img {
-      @extend .img-section;
-      background-image: url('../images/homepage.png');
+    background-image: url('../images/homepage.png');
+    height: 583px;
+    width: 875px;
   }
+
   .menu-modal {
     width: 100%;
     position: relative;
