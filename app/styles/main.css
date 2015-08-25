@@ -76,4 +76,25 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .img-section {
+    text-align: center;
+    background-repeat: no-repeat no-repeat;
+    background-color: black;
+  }
+
+  .homepage-img {
+      @extend .img-section;
+      background-image: url('../images/homepage.png');
+  }
+  .menu-modal {
+    width: 100%;
+    position: relative;
+    min-height: 500px;
+  }
+
+  .menu-btn {
+    margin-top:10px;
+    margin-bottom:30px;
+  }
 }
