@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name listRevampApp.controller:DirectionsCtrl
+ * @name listRevampApp.controller:ViewsCtrl
  * @description
- * # DirectionsCtrl
+ * # ViewsCtrl
  * Controller of the listRevampApp
  */
 angular.module('listRevampApp')
-  .controller('DirectionsCtrl', function (/* $scope */) {
+  .controller('ViewsCtrl', function (/* $scope */) {
     angular.element('.header-list-item').removeClass('active');
-    angular.element('.hli-directions').addClass('active');
+    angular.element('.hli-views').addClass('active');
   });

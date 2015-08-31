@@ -8,10 +8,7 @@
  * Controller of the listRevampApp
  */
 angular.module('listRevampApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function (/* $scope */) {
+    angular.element('.header-list-item').removeClass('active');
+    angular.element('.hli-home').addClass('active');
   });
