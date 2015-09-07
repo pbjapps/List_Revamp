@@ -100,4 +100,10 @@ body {
     margin-top:10px;
     margin-bottom:30px;
   }
+
+  #map {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
 }

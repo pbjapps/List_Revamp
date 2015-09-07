@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngMap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -34,7 +35,8 @@ angular
         templateUrl: 'views/views.html'
       })
       .when('/directions', {
-        templateUrl: 'views/directions.html'
+        templateUrl: 'views/directions.html',
+        controller: 'DirectionsCtrl'
       })
       .when('/21', {
         templateUrl: 'views/21.html'
