@@ -29,17 +29,20 @@ angular
         controller: 'MenuCtrl'
       })
       .when('/happyhour', {
-        templateUrl: 'views/happyhour.html'
+        templateUrl: 'views/happyhour.html',
+        controller: 'HappyHourCtrl'
       })
       .when('/views', {
-        templateUrl: 'views/views.html'
+        templateUrl: 'views/views.html',
+        controller: 'ViewsCtrl'
       })
       .when('/directions', {
         templateUrl: 'views/directions.html',
         controller: 'DirectionsCtrl'
       })
       .when('/21', {
-        templateUrl: 'views/21.html'
+        templateUrl: 'views/21.html',
+        controller: '21Ctrl'
       })
       .otherwise({
         redirectTo: '/'

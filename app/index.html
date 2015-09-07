@@ -25,15 +25,22 @@
     <!-- Add your site or application content here -->
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/menu">Menu</a></li>
-          <li><a ng-href="#/happyhour">Happy Hour</a></li>
-          <li><a ng-href="#/views">Views</a></li>
-          <li><a ng-href="#/directions">Directions</a></li>
-          <li><a ng-href="#/21">21+</a></li>
-        </ul>
-        <h3 class="text-muted">List (v2)</h3>
+        <h3 class="logo-header text-muted">List (v2)</h3>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="header-list-item hli-home"><a ng-href="#">Home</a></li>
+                <li class="header-list-item hli-menu"><a ng-href="#/menu">Menu</a></li>
+                <li class="header-list-item hli-happyhour"><a ng-href="#/happyhour">Happy Hour</a></li>
+                <li class="header-list-item hli-views"><a ng-href="#/views">Views</a></li>
+                <li class="header-list-item hli-directions"><a ng-href="#/directions">Directions</a></li>
+                <li class="header-list-item hli-21"><a ng-href="#/21">21+</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
       </div>
 
       <div ng-view=""></div>
@@ -81,9 +88,11 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/menu.js"></script>
+        <script src="scripts/controllers/happyhour.js"></script>
+        <script src="scripts/controllers/views.js"></script>
         <script src="scripts/controllers/directions.js"></script>
+        <script src="scripts/controllers/21.js"></script>
         <!-- endbuild -->
 </body>
 </html>

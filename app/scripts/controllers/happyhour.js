@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name listRevampApp.controller:DirectionsCtrl
+ * @name listRevampApp.controller:HappyHourCtrl
  * @description
- * # DirectionsCtrl
+ * # HappyHourCtrl
  * Controller of the listRevampApp
  */
 angular.module('listRevampApp')
-  .controller('DirectionsCtrl', function (/* $scope */) {
+  .controller('HappyHourCtrl', function (/* $scope */) {
     angular.element('.header-list-item').removeClass('active');
-    angular.element('.hli-directions').addClass('active');
+    angular.element('.hli-happyhour').addClass('active');
   });
