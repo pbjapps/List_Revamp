@@ -99,8 +99,10 @@ body {
 
   .homepage-img {
     background-image: url('../images/homepage.png');
-    height: 583px;
+    height: 385px;
     width: 875px;
+    background-size: 66%;
+    margin-left: 4.5em;
   }
 
   .menu-modal {
@@ -121,6 +123,31 @@ body {
   }
 }
 
-body p {
+body p, body div {
   color: rgb(255, 51, 51);
+}
+
+.index-view {
+  min-width: 700px;
+  min-height: 385px;
+}
+
+.happy-hour p, .age p {
+  text-align: center;
+}
+
+.carousel-inner {
+  min-height: 385px;
+}
+
+.carousel-inner > .item > img {
+  padding-left: 16em;
+}
+
+.carousel-indicators {
+  bottom: 55px;
+}
+
+* {
+  transition: all 0.3s ease-out;
 }
