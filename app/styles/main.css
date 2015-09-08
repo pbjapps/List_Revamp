@@ -147,7 +147,3 @@ body p, body div {
 .carousel-indicators {
   bottom: 55px;
 }
-
-* {
-  transition: all 0.3s ease-out;
-}
